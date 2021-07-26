@@ -51,7 +51,7 @@ def search():
     if weather_data:
         location_label["text"]="{}, {}".format(weather_data[0], weather_data[1])
         temperature_label["text"]="{}K".format(weather_data[2])
-        canvas_label["image"]=tkinter.PhotoImage(file="icons/{}.png".format(weather_data[3]))
+        canvas_label["image"]=tkinter.PhotoImage(file="images/{}.png".format(weather_data[3]))
         description_label["text"]=weather_data[4]
         min_temp_value_label["text"]=weather_data[5]
         max_temp_value_label["text"]=weather_data[6]
