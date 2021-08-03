@@ -11,7 +11,3 @@
 * Clone the repository to your local machine.
 * Run weather-app.py
 
-## Sample Screen
-<p align="center">
-  <img width="600" height="400" src="https://github.com/Subathra19/weather-app/blob/main/images/sample_screen.PNG">
-</p>
